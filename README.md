@@ -1,2 +1,1 @@
-# DevOps-Training
-DevOps Training
+# Project
