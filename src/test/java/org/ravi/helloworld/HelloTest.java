@@ -31,7 +31,7 @@ public class HelloTest {
 
 		String text1 = driver.findElement(By.xpath("//tr[@align = 'right']/td[@colspan = '2']/font[@size = '2' and @face = 'Arial, Helvetica, sans-serif, Verdana']/b")).getText();
 		System.out.println("The date is: "+text1);
-		driver.findElement(By.name("userName")).sendKeys("vishnu");
+		driver.findElement(By.name("userName")).sendKeys("Ebrahim");
 		String text = driver.findElement(By.name("userName")).getAttribute("value");
 		System.out.println("The Username entered is: "+text);
 
